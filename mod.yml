@@ -1,0 +1,127 @@
+---
+title: Sora - KH2
+originalAuthor: Cagaroo
+description: Sora (from KINGDOM HEARTS II) is finally here! Includes retargetted KH2 animations and voicelines.
+assets:
+# Models
+  - name: chara\pc\p_ex01\mig\0\bin\p_ex010.pmo
+    method: copy
+    source:
+      - name: 3ds\chara_pc\541-p_ex010.pmo
+  - name: remastered\chara\pc\p_ex01\mig\0\bin\p_ex010.pmo\p_ex010_01.dds
+    method: copy
+    source:
+      - name: remastered\chara_pc\p_ex010_01.dds
+  - name: chara\pc\p_tl06\mig\0\bin\p_tl060.pmo
+    method: copy
+    source:
+      - name: 3ds\chara_pc\113-p_tl060.pmo
+  - name: remastered\chara\pc\p_tl06\mig\0\bin\p_tl060.pmo\p_tl060_00.dds
+    method: copy
+    source:
+      - name: remastered\chara_pc\p_tl060_00.png
+  - name: remastered\chara\pc\p_tl06\mig\0\bin\p_tl060.pmo\p_tl060_01.dds
+    method: copy
+    source:
+      - name: remastered\chara_pc\p_tl060_01.png
+  - name: remastered\chara\pc\p_tl06\mig\0\bin\p_tl060.pmo\p_tl060_02.dds
+    method: copy
+    source:
+      - name: remastered\chara_pc\p_tl060_02.png
+  - name: remastered\menu\en\ckpt\gage\hp_p\bin\gage_000_n.l2d\US_face_000.png
+    multi:
+      - name: remastered\menu\en\ckpt\gage\hp_p\bin\gage_000_n.l2d\FR_face_000.png
+      - name: remastered\menu\en\ckpt\gage\hp_p\bin\gage_000_n.l2d\GR_face_000.png
+      - name: remastered\menu\en\ckpt\gage\hp_p\bin\gage_000_n.l2d\IT_face_000.png
+      - name: remastered\menu\en\ckpt\gage\hp_p\bin\gage_000_n.l2d\JP_face_000.png
+      - name: remastered\menu\en\ckpt\gage\hp_p\bin\gage_000_n.l2d\SP_face_000.png
+    method: copy
+    source:
+      - name: remastered\menu\US_face_000.png
+# Sounds
+  - name: sound\en\output\VOICE\BATTLE\vo_sr.win32.scd
+    method: copy
+    source:
+      - name: remastered\vo_sr.win32.scd
+# Dive
+  - name: chara\pc\p_ex11\anm\rt\bin\p_ex11_000.pam
+    method: copy
+    source:
+      - name: 3ds\chara_pc\273-p_ex11_000.pam
+# Animations
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_001.pam
+    method: copy
+    source:
+      - name: 3ds\chara_pc\371-p_ex01_001.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_101.pam
+    method: copy
+    source:
+      - name: 3ds\chara_pc\19-p_ex01_101.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_107.pam
+    method: copy
+    source:
+      - name: 3ds\chara_pc\290-p_ex01_107.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_110.pam
+    method: copy
+    source:
+      - name: 3ds\chara_pc\562-p_ex01_110.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_112.pam
+    method: copy
+    source:
+      - name: 3ds\chara_pc\285-p_ex01_112.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_115.pam
+    method: copy
+    source:
+      - name: 3ds\chara_pc\105-p_ex01_115.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_118.pam
+    method: copy
+    source:
+      - name: 3ds\chara_pc\446-p_ex01_118.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_119.pam
+    method: copy
+    source:
+      - name: 3ds\chara_pc\555-p_ex01_119.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_124.pam
+    method: copy
+    source:
+      - name: 3ds\chara_pc\303-p_ex01_124.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_127.pam
+    method: copy
+    source:
+      - name: 3ds\chara_pc\456-p_ex01_127.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_129.pam
+    method: copy
+    source:
+      - name: 3ds\chara_pc\456-p_ex01_129.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_132.pam
+    method: copy
+    source:
+      - name: 3ds\chara_pc\453-p_ex01_132.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_143.pam
+    method: copy
+    source:
+      - name: 3ds\chara_pc\523-p_ex01_143.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_144.pam
+    method: copy
+    source:
+      - name: 3ds\chara_pc\213-p_ex01_144.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_145.pam
+    method: copy
+    source:
+      - name: 3ds\chara_pc\224-p_ex01_145.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_146.pam
+    method: copy
+    source:
+      - name: 3ds\chara_pc\70-p_ex01_146.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_150.pam
+    method: copy
+    source:
+      - name: 3ds\chara_pc\223-p_ex01_150.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_160.pam
+    method: copy
+    source:
+      - name: 3ds\chara_pc\511-p_ex01_160.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_900.pam
+    method: copy
+    source:
+      - name: 3ds\chara_pc\4-p_ex01_900.pam
