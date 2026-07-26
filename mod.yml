@@ -37,7 +37,7 @@ assets:
       - name: remastered\menu\en\ckpt\gage\hp_p\bin\gage_000_n.l2d\SP_face_000.png
     method: copy
     source:
-      - name: remastered\menu\US_face_000.png
+      - name: remastered\menu\US_face_000.dds
 # Sounds
   - name: sound\en\output\VOICE\BATTLE\vo_sr.win32.scd
     method: copy
