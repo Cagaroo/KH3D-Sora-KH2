@@ -3,15 +3,53 @@ title: Sora - KH2
 originalAuthor: Cagaroo
 description: Sora (from KINGDOM HEARTS II) is finally here! Includes retargetted KH2 animations and voicelines.
 assets:
-# Models
+# Overworld
   - name: chara\pc\p_ex01\mig\0\bin\p_ex010.pmo
     method: copy
     source:
       - name: 3ds\chara_pc\541-p_ex010.pmo
+  - name: chara\pc\p_ex15\mig\0\bin\p_ex150.pmo
+    method: copy
+    source:
+      - name: 3ds\chara_pc\169-p_ex150.pmo
   - name: remastered\chara\pc\p_ex01\mig\0\bin\p_ex010.pmo\p_ex010_01.dds
     method: copy
     source:
       - name: remastered\chara_pc\p_ex010_01.dds
+  - name: remastered\chara\pc\p_ex15\mig\0\bin\p_ex150.pmo\n_ex050_00.dds
+    method: copy
+    source:
+      - name: remastered\chara_pc\p_ex150_00.dds
+  - name: remastered\chara\pc\p_ex01\mig\0\bin\p_ex010.pmo\p_ex010_E.dds
+    multi:
+      - name: remastered\chara\pc\p_ex15\mig\0\bin\p_ex150.pmo\n_ex050_M.dds
+    method: copy
+    source:
+      - name: remastered\chara_pc\p_ex010_E.dds
+  - name: remastered\chara\pc\p_ex01\mig\0\bin\p_ex010.pmo\p_ex010_M.dds
+    multi:
+      - name: remastered\chara\pc\p_ex15\mig\0\bin\p_ex150.pmo\n_ex050_M.dds
+    method: copy
+    source:
+      - name: remastered\chara_pc\p_ex010_M.dds
+  - name: chara\pc\p_ex01\mig\0\bin\p_ex010.txa
+    method: copy
+    source:
+      - name: 3ds\chara_pc\72-p_ex010.txa
+  - name: chara\pc\p_ex01\mig\0\bin\p_ex010r.txa
+    method: copy
+    source:
+      - name: 3ds\chara_pc\35-p_ex010r.txa
+  - name: chara\pc\p_ex01\mig\0\bin\p_ex010j.txa
+    method: copy
+    source:
+      - name: 3ds\chara_pc\146-p_ex010j.txa
+  - name: chara\pc\p_ex01\mig\0\bin\p_ex010d.txa
+    method: copy
+    source:
+      - name: 3ds\chara_pc\571-p_ex010d.txa
+
+# The Grid
   - name: chara\pc\p_tl06\mig\0\bin\p_tl060.pmo
     method: copy
     source:
@@ -28,26 +66,13 @@ assets:
     method: copy
     source:
       - name: remastered\chara_pc\p_tl060_02.png
-  - name: remastered\menu\en\ckpt\gage\hp_p\bin\gage_000_n.l2d\US_face_000.png
-    multi:
-      - name: remastered\menu\en\ckpt\gage\hp_p\bin\gage_000_n.l2d\FR_face_000.png
-      - name: remastered\menu\en\ckpt\gage\hp_p\bin\gage_000_n.l2d\GR_face_000.png
-      - name: remastered\menu\en\ckpt\gage\hp_p\bin\gage_000_n.l2d\IT_face_000.png
-      - name: remastered\menu\en\ckpt\gage\hp_p\bin\gage_000_n.l2d\JP_face_000.png
-      - name: remastered\menu\en\ckpt\gage\hp_p\bin\gage_000_n.l2d\SP_face_000.png
-    method: copy
-    source:
-      - name: remastered\menu\US_face_000.dds
+      
 # Sounds
   - name: sound\en\output\VOICE\BATTLE\vo_sr.win32.scd
     method: copy
     source:
       - name: remastered\vo_sr.win32.scd
-# Dive
-  - name: chara\pc\p_ex11\anm\rt\bin\p_ex11_000.pam
-    method: copy
-    source:
-      - name: 3ds\chara_pc\273-p_ex11_000.pam
+
 # Animations
   - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_001.pam
     method: copy
@@ -92,7 +117,7 @@ assets:
   - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_129.pam
     method: copy
     source:
-      - name: 3ds\chara_pc\456-p_ex01_129.pam
+      - name: 3ds\chara_pc\262-p_ex01_129.pam
   - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_132.pam
     method: copy
     source:
@@ -100,7 +125,7 @@ assets:
   - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_143.pam
     method: copy
     source:
-      - name: 3ds\chara_pc\523-p_ex01_143.pam
+      - name: 3ds\chara_pc\528-p_ex01_143.pam
   - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_144.pam
     method: copy
     source:
@@ -125,3 +150,13 @@ assets:
     method: copy
     source:
       - name: 3ds\chara_pc\4-p_ex01_900.pam
+
+# Dive
+  - name: chara\pc\p_ex11\anm\rt\bin\p_ex11_000.pam
+    method: copy
+    source:
+      - name: 3ds\chara_pc\273-p_ex11_000.pam
+  - name: chara\pc\p_ex15\anm\rt\bin\p_ex15_000.pam
+    method: copy
+    source:
+      - name: 3ds\chara_pc\148-p_ex15_000.pam
