@@ -156,7 +156,3 @@ assets:
     method: copy
     source:
       - name: 3ds\chara_pc\273-p_ex11_000.pam
-  - name: chara\pc\p_ex15\anm\rt\bin\p_ex15_000.pam
-    method: copy
-    source:
-      - name: 3ds\chara_pc\148-p_ex15_000.pam
