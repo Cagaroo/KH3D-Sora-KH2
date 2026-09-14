@@ -8,30 +8,18 @@ assets:
     method: copy
     source:
       - name: 3ds\chara_pc\541-p_ex010.pmo
-  - name: chara\pc\p_ex15\mig\0\bin\p_ex150.pmo
-    method: copy
-    source:
-      - name: 3ds\chara_pc\169-p_ex150.pmo
   - name: remastered\chara\pc\p_ex01\mig\0\bin\p_ex010.pmo\p_ex010_01.dds
     method: copy
     source:
-      - name: remastered\chara_pc\p_ex010_01.dds
-  - name: remastered\chara\pc\p_ex15\mig\0\bin\p_ex150.pmo\n_ex050_00.dds
-    method: copy
-    source:
-      - name: remastered\chara_pc\p_ex150_00.dds
+      - name: remastered\chara_pc\p_ex010\p_ex010_01.dds
   - name: remastered\chara\pc\p_ex01\mig\0\bin\p_ex010.pmo\p_ex010_E.dds
-    multi:
-      - name: remastered\chara\pc\p_ex15\mig\0\bin\p_ex150.pmo\n_ex050_M.dds
     method: copy
     source:
-      - name: remastered\chara_pc\p_ex010_E.dds
+      - name: remastered\chara_pc\p_ex010\p_ex010_E.dds
   - name: remastered\chara\pc\p_ex01\mig\0\bin\p_ex010.pmo\p_ex010_M.dds
-    multi:
-      - name: remastered\chara\pc\p_ex15\mig\0\bin\p_ex150.pmo\n_ex050_M.dds
     method: copy
     source:
-      - name: remastered\chara_pc\p_ex010_M.dds
+      - name: remastered\chara_pc\p_ex010\p_ex010_M.dds
   - name: chara\pc\p_ex01\mig\0\bin\p_ex010.txa
     method: copy
     source:
@@ -57,15 +45,33 @@ assets:
   - name: remastered\chara\pc\p_tl06\mig\0\bin\p_tl060.pmo\p_tl060_00.dds
     method: copy
     source:
-      - name: remastered\chara_pc\p_tl060_00.png
+      - name: remastered\chara_pc\p_tl060\p_tl060_00.png
   - name: remastered\chara\pc\p_tl06\mig\0\bin\p_tl060.pmo\p_tl060_01.dds
     method: copy
     source:
-      - name: remastered\chara_pc\p_tl060_01.png
+      - name: remastered\chara_pc\p_tl060\p_tl060_01.png
   - name: remastered\chara\pc\p_tl06\mig\0\bin\p_tl060.pmo\p_tl060_02.dds
     method: copy
     source:
-      - name: remastered\chara_pc\p_tl060_02.png
+      - name: remastered\chara_pc\p_tl060\p_tl060_02.png
+
+# Intro
+  - name: chara\pc\p_ex03\mig\0\bin\p_ex030.pmo
+    method: copy
+    source:
+      - name: 3ds\chara_pc\175-p_ex030.pmo
+  - name: remastered\chara\pc\p_ex03\mig\0\bin\p_ex030.pmo\p_ex030_00.dds
+    method: copy
+    source:
+      - name: remastered\chara_pc\p_ex030\p_ex030_00.dds
+  - name: remastered\chara\pc\p_ex03\mig\0\bin\p_ex030.pmo\p_ex030_E.dds
+    method: copy
+    source:
+      - name: remastered\chara_pc\p_ex030\p_ex030_E.dds
+  - name: remastered\chara\pc\p_ex03\mig\0\bin\p_ex030.pmo\p_ex030_M.dds
+    method: copy
+    source:
+      - name: remastered\chara_pc\p_ex030\p_ex030_M.dds
       
 # Sounds
   - name: sound\en\output\VOICE\BATTLE\vo_sr.win32.scd
@@ -151,8 +157,38 @@ assets:
     source:
       - name: 3ds\chara_pc\4-p_ex01_900.pam
 
+# Intro
+  - name: chara\pc\p_ex03\anm\rt\bin\p_ex03_001.pam
+    method: copy
+    source:
+      - name: 3ds\chara_pc\191-p_ex03_001.pam
+  - name: chara\pc\p_ex03\anm\rt\bin\p_ex03_008.pam
+    method: copy
+    source:
+      - name: 3ds\chara_pc\182-p_ex03_008.pam
+  - name: chara\pc\p_ex03\anm\rt\bin\p_ex03_101.pam
+    method: copy
+    source:
+      - name: 3ds\chara_pc\577-p_ex03_101.pam
+  - name: chara\pc\p_ex03\anm\rt\bin\p_ex03_110.pam
+    method: copy
+    source:
+      - name: 3ds\chara_pc\14-p_ex03_110.pam
+  - name: chara\pc\p_ex03\anm\rt\bin\p_ex03_150.pam
+    method: copy
+    source:
+      - name: 3ds\chara_pc\317-p_ex03_150.pam
+  - name: chara\pc\p_ex03\anm\rt\bin\p_ex03_900.pam
+    method: copy
+    source:
+      - name: 3ds\chara_pc\542-p_ex03_900.pam
+
 # Dive
   - name: chara\pc\p_ex11\anm\rt\bin\p_ex11_000.pam
     method: copy
     source:
       - name: 3ds\chara_pc\273-p_ex11_000.pam
+  - name: chara\pc\p_ex13\anm\rt\bin\p_ex13_000.pam
+    method: copy
+    source:
+      - name: 3ds\chara_pc\305-p_ex13_000.pam
