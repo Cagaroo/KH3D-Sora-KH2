@@ -8,11 +8,11 @@ preferences:
     description: Select a Crown style
     type: options
     options:
-      - "none"
+      - "None"
       - "Bronze"
       - "Silver"
       - "Gold"
-    value: "none"
+    value: "None"
 
 assets:
 ## Accessories
@@ -49,7 +49,7 @@ assets:
     method: copy
     condition:
       key: crownStyle
-      value: "none"
+      value: "None"
     source:
       - name: remastered\chara_pc\accessories\none.png
 
