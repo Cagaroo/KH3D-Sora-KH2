@@ -1059,67 +1059,67 @@ assets:
     method: copy
     source:
       - name: 3ds\chara_pc\53-p_ex030_00001w.pam
-  - name: motionNE\pc\p_ex01\anm\ev_ex\bin\p_ex030_30207e.pam
+  - name: motionNE\pc\p_ex03\anm\ev_di\bin\p_ex030_30207e.pam
     method: copy
     source:
       - name: 3ds\chara_pc\58-p_ex030_30207e.pam
-  - name: motionNE\pc\p_ex01\anm\ev_ex\bin\p_ex030_30301e.pam
+  - name: motionNE\pc\p_ex03\anm\ev_di\bin\p_ex030_30301e.pam
     method: copy
     source:
       - name: 3ds\chara_pc\125-p_ex030_30301e.pam
-  - name: motionNE\pc\p_ex01\anm\ev_ex\bin\p_ex030_10404e.pam
+  - name: motionNE\pc\p_ex03\anm\ev_eh\bin\p_ex030_10404e.pam
     method: copy
     source:
       - name: 3ds\chara_pc\136-p_ex030_10404e.pam
-  - name: motionNE\pc\p_ex01\anm\ev_ex\bin\p_ex030_10442e.pam
+  - name: motionNE\pc\p_ex03\anm\ev_eh\bin\p_ex030_10442e.pam
     method: copy
     source:
       - name: 3ds\chara_pc\225-p_ex030_10442e.pam
-  - name: motionNE\pc\p_ex01\anm\ev_ex\bin\p_ex030_30304e.pam
+  - name: motionNE\pc\p_ex03\anm\ev_di\bin\p_ex030_30304e.pam
     method: copy
     source:
       - name: 3ds\chara_pc\244-p_ex030_30304e.pam
-  - name: motionNE\pc\p_ex01\anm\ev_ex\bin\p_ex030_30202e.pam
+  - name: motionNE\pc\p_ex03\anm\ev_di\bin\p_ex030_30202e.pam
     method: copy
     source:
       - name: 3ds\chara_pc\257-p_ex030_30202e.pam
-  - name: motionNE\pc\p_ex01\anm\ev_ex\bin\p_ex030_00061a.pam
+  - name: motionNE\pc\p_ex03\anm\ev_ex\bin\p_ex030_00061a.pam
     method: copy
     source:
       - name: 3ds\chara_pc\316-p_ex030_00061a.pam
-  - name: motionNE\pc\p_ex01\anm\ev_ex\bin\p_ex030_10402e.pam
+  - name: motionNE\pc\p_ex03\anm\ev_eh\bin\p_ex030_10402e.pam
     method: copy
     source:
       - name: 3ds\chara_pc\324-p_ex030_10402e.pam
-  - name: motionNE\pc\p_ex01\anm\ev_ex\bin\p_ex030_30305e.pam
+  - name: motionNE\pc\p_ex03\anm\ev_di\bin\p_ex030_30305e.pam
     method: copy
     source:
       - name: 3ds\chara_pc\349-p_ex030_30305e.pam
-  - name: motionNE\pc\p_ex01\anm\ev_ex\bin\p_ex030_10443e.pam
+  - name: motionNE\pc\p_ex03\anm\ev_eh\bin\p_ex030_10443e.pam
     method: copy
     source:
       - name: 3ds\chara_pc\367-p_ex030_10443e.pam
-  - name: motionNE\pc\p_ex01\anm\ev_ex\bin\p_ex030_30314e.pam
+  - name: motionNE\pc\p_ex03\anm\ev_di\bin\p_ex030_30314e.pam
     method: copy
     source:
       - name: 3ds\chara_pc\386-p_ex030_30314e.pam
-  - name: motionNE\pc\p_ex01\anm\ev_ex\bin\p_ex030_10444e.pam
+  - name: motionNE\pc\p_ex03\anm\ev_eh\bin\p_ex030_10444e.pam
     method: copy
     source:
       - name: 3ds\chara_pc\398-p_ex030_10444e.pam
-  - name: motionNE\pc\p_ex01\anm\ev_ex\bin\p_ex030_00039e.pam
+  - name: motionNE\pc\p_ex03\anm\ev_ex\bin\p_ex030_00039e.pam
     method: copy
     source:
       - name: 3ds\chara_pc\481-p_ex030_00039e.pam
-  - name: motionNE\pc\p_ex01\anm\ev_ex\bin\p_ex030_10441e.pam
+  - name: motionNE\pc\p_ex03\anm\ev_eh\bin\p_ex030_10441e.pam
     method: copy
     source:
       - name: 3ds\chara_pc\502-p_ex030_10441e.pam
-  - name: motionNE\pc\p_ex01\anm\ev_ex\bin\p_ex030_00013e.pam
+  - name: motionNE\pc\p_ex03\anm\ev_ex\bin\p_ex030_00013e.pam
     method: copy
     source:
       - name: 3ds\chara_pc\534-p_ex030_00013e.pam
-  - name: motionNE\pc\p_ex01\anm\ev_ex\bin\543p_ex030_30315a.pam
+  - name: motionNE\pc\p_ex03\anm\ev_di\bin\p_ex030_30315a.pam
     method: copy
     source:
       - name: 3ds\chara_pc\543p_ex030_30315a.pam
