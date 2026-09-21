@@ -71,22 +71,54 @@ assets:
     method: copy
     source:
       - name: remastered\chara_pc\p_ex010\p_ex010_M.dds
+  - name: remastered\chara\pc\p_ex01\mig\0\bin\p_ex010.txa\p_ex010_Ea.dds
+    multi:
+    - name: remastered\chara\pc\p_ex01\mig\0\bin\p_ex010d.txa\p_ex010_Ea.dds
+    - name: remastered\chara\pc\p_ex01\mig\0\bin\p_ex010j.txa\p_ex010_Ea.dds
+    - name: remastered\chara\pc\p_ex01\mig\0\bin\p_ex010r.txa\p_ex010_Ea.dds
+    - name: remastered\chara\pc\p_ex03\mig\0\bin\p_ex030.txa\p_ex030_Ea.dds
+    - name: remastered\chara\pc\p_ex03\mig\0\bin\p_ex030d.txa\p_ex030_Ea.dds
+    - name: remastered\chara\pc\p_ex03\mig\0\bin\p_ex030j.txa\p_ex030_Ea.dds
+    - name: remastered\chara\pc\p_ex03\mig\0\bin\p_ex030r.txa\p_ex030_Ea.dds
+    method: copy
+    source:
+      - name: remastered\chara_pc\p_ex010\p_ex010_Ea.dds
+  - name: remastered\chara\pc\p_ex01\mig\0\bin\p_ex010.txa\p_ex010_Ma.dds
+    multi:
+    - name: remastered\chara\pc\p_ex01\mig\0\bin\p_ex010d.txa\p_ex010_Ma.dds
+    - name: remastered\chara\pc\p_ex01\mig\0\bin\p_ex010j.txa\p_ex010_Ma.dds
+    - name: remastered\chara\pc\p_ex01\mig\0\bin\p_ex010r.txa\p_ex010_Ma.dds
+    - name: remastered\chara\pc\p_ex03\mig\0\bin\p_ex030.txa\p_ex030_Ma.dds
+    - name: remastered\chara\pc\p_ex03\mig\0\bin\p_ex030d.txa\p_ex030_Ma.dds
+    - name: remastered\chara\pc\p_ex03\mig\0\bin\p_ex030j.txa\p_ex030_Ma.dds
+    - name: remastered\chara\pc\p_ex03\mig\0\bin\p_ex030r.txa\p_ex030_Ma.dds
+    method: copy
+    source:
+      - name: remastered\chara_pc\p_ex010\p_ex010_Ma.dds
   - name: chara\pc\p_ex01\mig\0\bin\p_ex010.txa
+    multi:
+    - name: chara\pc\p_ex03\mig\0\bin\p_ex030.txa
     method: copy
     source:
-      - name: 3ds\chara_pc\72-p_ex010.txa
+      - name: remastered\chara_pc\p_ex010\p_ex010.txa
   - name: chara\pc\p_ex01\mig\0\bin\p_ex010r.txa
+    multi:
+    - name: chara\pc\p_ex03\mig\0\bin\p_ex030r.txa
     method: copy
     source:
-      - name: 3ds\chara_pc\35-p_ex010r.txa
+      - name: remastered\chara_pc\p_ex010\p_ex010r.txa
   - name: chara\pc\p_ex01\mig\0\bin\p_ex010j.txa
+    multi:
+    - name: chara\pc\p_ex03\mig\0\bin\p_ex030j.txa
     method: copy
     source:
-      - name: 3ds\chara_pc\146-p_ex010j.txa
+      - name: remastered\chara_pc\p_ex010\p_ex010j.txa
   - name: chara\pc\p_ex01\mig\0\bin\p_ex010d.txa
+    multi:
+    - name: chara\pc\p_ex03\mig\0\bin\p_ex030d.txa
     method: copy
     source:
-      - name: 3ds\chara_pc\571-p_ex010d.txa
+      - name: remastered\chara_pc\p_ex010\p_ex010d.txa
 
 # The Grid
   - name: chara\pc\p_tl06\mig\0\bin\p_tl060.pmo
