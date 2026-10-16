@@ -272,75 +272,75 @@ assets:
       - name: 3ds\chara_pc\542-p_ex03_900.pam
 
 # Spirit Links
-  - name: chara\pc\p_ex03\anm\rt\bin\p_ex01_401.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_401.pam
     method: copy
     source:
       - name: 3ds\chara_pc\210-p_ex01_401.pam
-  - name: chara\pc\p_ex03\anm\rt\bin\p_ex01_403.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_403.pam
     method: copy
     source:
       - name: 3ds\chara_pc\68-p_ex01_403.pam
-  - name: chara\pc\p_ex03\anm\rt\bin\p_ex01_405.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_405.pam
     method: copy
     source:
       - name: 3ds\chara_pc\375-p_ex01_405.pam
-  - name: chara\pc\p_ex03\anm\rt\bin\p_ex01_406.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_406.pam
     method: copy
     source:
       - name: 3ds\chara_pc\527-p_ex01_406.pam
-  - name: chara\pc\p_ex03\anm\rt\bin\p_ex01_407.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_407.pam
     method: copy
     source:
       - name: 3ds\chara_pc\458-p_ex01_407.pam
-  - name: chara\pc\p_ex03\anm\rt\bin\p_ex01_408.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_408.pam
     method: copy
     source:
       - name: 3ds\chara_pc\180-p_ex01_408.pam
-  - name: chara\pc\p_ex03\anm\rt\bin\p_ex01_409.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_409.pam
     method: copy
     source:
       - name: 3ds\chara_pc\250-p_ex01_409.pam
-  - name: chara\pc\p_ex03\anm\rt\bin\p_ex01_410.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_410.pam
     method: copy
     source:
       - name: 3ds\chara_pc\364-p_ex01_410.pam
-  - name: chara\pc\p_ex03\anm\rt\bin\p_ex01_411.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_411.pam
     method: copy
     source:
       - name: 3ds\chara_pc\323-p_ex01_411.pam
-  - name: chara\pc\p_ex03\anm\rt\bin\p_ex01_412.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_412.pam
     method: copy
     source:
       - name: 3ds\chara_pc\461-p_ex01_412.pam
-  - name: chara\pc\p_ex03\anm\rt\bin\p_ex01_413.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_413.pam
     method: copy
     source:
       - name: 3ds\chara_pc\536-p_ex01_413.pam
-  - name: chara\pc\p_ex03\anm\rt\bin\p_ex01_414.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_414.pam
     method: copy
     source:
       - name: 3ds\chara_pc\208-p_ex01_414.pam
-  - name: chara\pc\p_ex03\anm\rt\bin\p_ex01_415.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_415.pam
     method: copy
     source:
       - name: 3ds\chara_pc\219-p_ex01_415.pam
-  - name: chara\pc\p_ex03\anm\rt\bin\p_ex01_416.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_416.pam
     method: copy
     source:
       - name: 3ds\chara_pc\77-p_ex01_416.pam
-  - name: chara\pc\p_ex03\anm\rt\bin\p_ex01_416.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_416.pam
     method: copy
     source:
       - name: remastered\chara_pc\p_ex01_417.pam
-  - name: chara\pc\p_ex03\anm\rt\bin\p_ex01_453.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_453.pam
     method: copy
     source:
       - name: 3ds\chara_pc\266-p_ex01_453.pam
-  - name: chara\pc\p_ex03\anm\rt\bin\p_ex01_457.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_457.pam
     method: copy
     source:
       - name: 3ds\chara_pc\289-p_ex01_457.pam
-  - name: chara\pc\p_ex03\anm\rt\bin\p_ex01_458.pam
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_458.pam
     method: copy
     source:
       - name: 3ds\chara_pc\6-p_ex01_458.pam
