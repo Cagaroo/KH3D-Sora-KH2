@@ -161,6 +161,12 @@ assets:
     method: copy
     source:
       - name: remastered\vo_sr.win32.scd
+      
+## Game
+  - name: chara\pc\p_ex01\bin\w_so01.tcd
+    method: copy
+    source:
+      - name: 3ds\chara_pc\497-w_so01.tcd
 
 ## Animations
 # Overworld
